@@ -23,8 +23,9 @@ in ipynb file.
 Please refer to ipynb file and run all the steps to get dataframe results for flights with most recent data.
 1. Please use google collab to run the ipynd file.
 2. We are using pyspark in this project so installed spark as first step.
-3. Upload the Dummy_Flight_Leg_Data.csv file into the google collab files  Delta folders. Please refer to screenshot as below for file structure on the left (https://user-images.githubusercontent.com/91281151/209038656-c70d557c-8c54-4030-880d-776b77e65d16.png)
-4. We are using row_number() function to do partitions and order by so that we can pick the required order of data, hence got the recent status of the flights.
-5. Also perfermed the same same logic using spark.sql and displayed the results on ipynb file please refer to the last step.
+3.Upload the Dummy_Flight_Leg_Data.csv file into the google collab files  Delta folders. Please refer to screenshot as below for file structure on the left (https://user-images.githubusercontent.com/91281151/209038656-c70d557c-8c54-4030-880d-776b77e65d16.png)
+4. Run all the steps.
+5. We are using row_number() function to do partitions and order by so that we can pick the required order of data, hence got the recent status of the flights.
+6. Also perfermed the same same logic using spark.sql and displayed the results on ipynb file please refer to the last step.
 
 
