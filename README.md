@@ -14,12 +14,16 @@ This projects consists of two tasks.
 
 ### Task 1:
 
-Please refer to the note file with sql query where we used row_number and paritions to get latest status of flights.
+Please refer to the rtf file with sql query where we used row_number and paritions to get latest status of flights. ( Also writted the same in spark.sql
+in ipynb file.
 
 
-### Task 2:
+### Task 2: Run Steps
 
 Please refer to ipynb file and run all the steps to get dataframe results for flights with most recent data.
 1. Please use google collab to run the ipynd file.
-2. We are using spark in this project so installed spark as first step.
-3. 
+2. We are using pyspark in this project so installed spark as first step.
+3. Upload the Dummy_Flight_Leg_Data.csv file into the google collab folders
+4. (https://user-images.githubusercontent.com/91281151/209038656-c70d557c-8c54-4030-880d-776b77e65d16.png)
+
+5. 
